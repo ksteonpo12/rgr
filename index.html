@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap">
+
+</head>
+<body>
+    <header>
+        <img src="pict/logo.webp" height="80" width="80" />
+
+        <nav class="desktop-menu">
+            <a href="#">Головна</a>
+            <a href="#about-section">Про нас</a>
+            <a href="#">Тренери</a>
+            <a href="#">Контакти</a>
+        </nav>
+
+        <a href="login.html" class="login-btn">Вхід</a>
+
+        <div class="mobile-menu">
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-btn">Меню</label>
+            <div class="dropdown">
+                <a href="#">Головна</a>
+                <a href="#about-section">Про нас</a>
+                <a href="#">Тренери</a>
+                <a href="#">Контакти</a>
+            </div>
+        </div>
+    </header>
+
+    <br />
+
+    <main>
+        <div class="container">
+            <section class="product-card">
+                <img src="pict/training.webp" height="300" width="800" />
+                <article>
+                    <h2>Ефективні тренування у фітнес-залі</h2>
+                    <p>
+                        Відчуйте на собі всі переваги тренувань у просторому та сучасному фітнес-залі!
+                        Професійне обладнання та індивідуальні програми тренувань допоможуть досягти ваших цілей швидше.
+                    </p>
+                    <p><strong>Ціна: 1500 грн</strong></p>
+                    <p>Тип абонемента:</p>
+                    <label><input type="radio" name="membership" value="monthly" checked> Місячний</label>
+                    <label><input type="radio" name="membership" value="quarterly"> Квартальний</label>
+                    <p>Кількість місяців:</p>
+                    <select>
+                        <option value="1">1 місяць</option>
+                        <option value="3">3 місяці</option>
+                        <option value="6">6 місяців</option>
+                        <option value="12">12 місяців</option>
+                    </select>
+                    <input type="submit" value="Купити абонемент" />
+                </article>
+            </section>
+
+            <section class="product-card">
+                <img src="pict/coach.jpg" height="300" width="800" />
+                <article>
+                    <h2>Персональні тренування з професіоналами</h2>
+                    <p>
+                        Забезпечте собі результат із допомогою персональних тренувань під керівництвом професійного тренера.
+                        Наші тренери мають великий досвід роботи та індивідуальний підхід до кожного клієнта.
+                    </p>
+                    <p><strong>Ціна: 2500 грн</strong></p>
+                    <p>Тип абонемента:</p>
+                    <label><input type="radio" name="membership" value="monthly" checked> Місячний</label>
+                    <label><input type="radio" name="membership" value="quarterly"> Квартальний</label>
+                    <p>Кількість місяців:</p>
+                    <select>
+                        <option value="1">1 місяць</option>
+                        <option value="3">3 місяці</option>
+                        <option value="6">6 місяців</option>
+                        <option value="12">12 місяців</option>
+                    </select>
+                    <input type="submit" value="Купити абонемент" />
+                </article>
+            </section>
+
+            <section class="product-card">
+                <img src="pict/group.jpg" height="300" width="800" />
+                <article>
+                    <h2>Групові заняття для початківців</h2>
+                    <p>
+                        Приєднуйтесь до групових занять і починайте свій шлях у фітнесі разом з іншими початківцями. Підтримка та мотивація групи допоможуть вам не тільки досягти бажаних результатів, але й отримати задоволення від занять.
+                    </p>
+                    <p><strong>Ціна: 1200 грн</strong></p>
+                    <p>Тип абонемента:</p>
+                    <label><input type="radio" name="membership" value="monthly" checked> Місячний</label>
+                    <label><input type="radio" name="membership" value="quarterly"> Квартальний</label>
+                    <p>Кількість місяців:</p>
+                    <select>
+                        <option value="1">1 місяць</option>
+                        <option value="3">3 місяці</option>
+                        <option value="6">6 місяців</option>
+                        <option value="12">12 місяців</option>
+                    </select>
+                    <input type="submit" value="Купити абонемент" />
+                </article>
+            </section>
+
+            <section class="product-card">
+                <img src="pict/cardio.jpg" height="300" width="800" />
+                <article>
+                    <h2>Кардіо-зона для активного тренування</h2>
+                    <p>
+                        Зміцнюйте свою серцево-судинну систему завдяки спеціально облаштованій кардіо-зоні.
+                    </p>
+                    <p><strong>Ціна: 1800 грн</strong></p>
+                    <p>Тип абонемента:</p>
+                    <label><input type="radio" name="membership" value="monthly" checked> Місячний</label>
+                    <label><input type="radio" name="membership" value="quarterly"> Квартальний</label>
+                    <p>Кількість місяців:</p>
+                    <select>
+                        <option value="1">1 місяць</option>
+                        <option value="3">3 місяці</option>
+                        <option value="6">6 місяців</option>
+                        <option value="12">12 місяців</option>
+                    </select>
+                    <input type="submit" value="Купити абонемент" />
+                </article>
+            </section>
+
+        </div>
+<!-- Про нас секция -->
+        <section id="about-section" class="about-section">
+            <h2>ПРО НАС</h2>
+            <p>Що SKY GYM відрізняє від інших</p>
+            <div class="about-cards">
+                <div class="about-card">
+                    <h3>Мережа фітнес-клубів №1 в Чернігові</h3>
+                    <p>6 клубів у різних районах міста. Єдині в Чернігові, хто надає клієнтам мережеву карту за ціною локальної.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Єдина мережа з crossfit зоною</h3>
+                    <p>Зали укомплектовані сучасним обладнанням, щоб тренування приносили лише задоволення.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Найбільша кардіо зона</h3>
+                    <p>Ми організували простір, де представлений найбільший вибір кардіо тренажерів в Україні.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Допоможемо прокачатись і реалізуватись</h3>
+                    <p>Проводимо щорічні клубні турніри, де ти зможеш проявити себе.</p>
+                </div>
+            </div>
+        </section>
+        <section class="gym-selection">
+    <h2>ВИБІР ЗАЛУ</h2>
+    <p>Обері свій клуб у Чернігові</p>
+    <div class="gym-cards">
+        <div class="gym-card">
+            <img src="pict/gym1.jpg"  alt="Зал на вул. Захисників України, 9" />
+            <p class="address"><span>📍</span> вул. Захисників України, 9</p>
+            <button class="select-btn">ОБРАТИ ЦЕЙ ЗАЛ</button>
+        </div>
+        <div class="gym-card">
+            <img src="pict/gym2.jpg" alt="Зал на вул. Мартина Небаби, 106" />
+            <p class="address"><span>📍</span> вул. Мартина Небаби, 106</p>
+            <button class="select-btn">ОБРАТИ ЦЕЙ ЗАЛ</button>
+        </div>
+        <div class="gym-card">
+            <img src="pict/gym3.jpg"  alt="Зал на вул. Волковича, 21" />
+            <p class="address"><span>📍</span> вул. Волковича, 21</p>
+            <button class="select-btn">ОБРАТИ ЦЕЙ ЗАЛ</button>
+        </div>
+        <div class="gym-card">
+            <img src="pict/gym4.jpg" alt="Зал на вул. Мстиславська, 45" />
+            <p class="address"><span>📍</span> вул. Мстиславська, 45</p>
+            <button class="select-btn">ОБРАТИ ЦЕЙ ЗАЛ</button>
+        </div>
+    </div>
+</section>
+    </main>
+</body>
+</html>
+
